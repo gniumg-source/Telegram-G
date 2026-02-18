@@ -1,18 +1,18 @@
-# [Telegram X](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) — a slick experimental Telegram client based on [TDLib](https://core.telegram.org/tdlib).
+# [Telegram G](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) — a slick experimental Telegram client based on [TDLib](https://core.telegram.org/tdlib).
 
-![Telegram X](/images/feature.png)
+![Telegram G](/images/feature.png)
 
 This is the complete source code and the build instructions for the official alternative Android client for the Telegram messenger, based on the [Telegram API](https://core.telegram.org/api) and the [MTProto](https://core.telegram.org/mtproto) secure protocol via [TDLib](https://github.com/TGX-Android/tdlib).
 
-* [**Telegram X** on Google Play](http://play.google.com/store/apps/details?id=org.thunderdog.challegram) ([subscribe to beta](https://play.google.com/apps/testing/org.thunderdog.challegram))
+* [**Telegram G** on Google Play](http://play.google.com/store/apps/details?id=org.thunderdog.challegram) ([subscribe to beta](https://play.google.com/apps/testing/org.thunderdog.challegram))
 * [APKs and Build Info](https://t.me/tgx_log)
 * [Bot to verify APK hash](https://t.me/tgx_bot)
 
 <details>
 <summary>Other sources</summary>
 
-* [**Telegram X** on Huawei AppGallery](https://appgallery.huawei.com/app/C101754199)
-* [**GitHub Releases**](https://github.com/TGX-Android/Telegram-X/releases)
+* [**Telegram G** on Huawei AppGallery](https://appgallery.huawei.com/app/C101754199)
+* [**GitHub Releases**](https://github.com/TGX-Android/Telegram-G/releases)
 
 </details>
 
@@ -40,7 +40,7 @@ This is the complete source code and the build instructions for the official alt
 
 ### Building
 
-1. `$ git clone --recursive --depth=1 --shallow-submodules https://github.com/TGX-Android/Telegram-X tgx` — clone **Telegram X** with submodules
+1. `$ git clone --recursive --depth=1 --shallow-submodules https://github.com/TGX-Android/Telegram-X tgx` — clone **Telegram G** with submodules
 2. In case you forgot the `--recursive` flag, `cd` into `tgx` directory and: `$ git submodule init && git submodule update --init --recursive --depth=1`
 3. Create `keystore.properties` file outside of source tree with the following properties:<br/>`keystore.file`: absolute path to the keystore file<br/>`keystore.password`: password for the keystore<br/>`key.alias`: key alias that will be used to sign the app<br/>`key.password`: key password.<br/>**Warning**: keep this file safe and make sure nobody, except you, has access to it. For production builds one could use a separate user with home folder encryption to avoid harm from physical theft
 4. `$ cd tgx`
@@ -77,7 +77,7 @@ After submitting a pull request and its initial review, special build including 
 
 In order to verify that there is no additional source code injected inside official APKs, you must use one of the following versions of **Ubuntu**:
 
-* **21.04**: for builds published before [26th May 2023](https://github.com/TGX-Android/Telegram-X/commit/e9a054a0f469a98a13f7e0d751539687fef8759b)
+* **21.04**: for builds published before [26th May 2023](https://github.com/TGX-Android/Telegram-G/commit/e9a054a0f469a98a13f7e0d751539687fef8759b)
 * **22.04.2 LTS**: for builds published before 27th September 2025
 * **24.04 LTS**: for any newer releases.
 
@@ -130,6 +130,6 @@ List of third-party components used in **Telegram X** can be found [here](/docs/
 
 ## Contributions
 
-**Telegram X** welcomes contributions. Check out [pull request template](/docs/PULL_REQUEST_TEMPLATE.md) and [guide for contributors](/docs/GUIDE.md) to learn more about Telegram X internals before creating the first pull request.
+**Telegram G** welcomes contributions. Check out [pull request template](/docs/PULL_REQUEST_TEMPLATE.md) and [guide for contributors](/docs/GUIDE.md) to learn more about Telegram X internals before creating the first pull request.
 
-If you are a regular user and experience a problem with Telegram X, the best place to look for solution is [Telegram X chat](https://t.me/tgandroidtests) — a community with over 4 thousand members. Please do not use this repository to ask questions: if you have general issue with Telegram, refer to [FAQ](http://telegram.org/faq) or contact [Telegram Support](https://telegram.org/faq#telegram-support).
+If you are a regular user and experience a problem with Telegram X, the best place to look for solution is [Telegram G-chat](https://t.me/tgandroidtests) — a community with over 4 thousand members. Please do not use this repository to ask questions: if you have general issue with Telegram, refer to [FAQ](http://telegram.org/faq) or contact [Telegram Support](https://telegram.org/faq#telegram-support).
